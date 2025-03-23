@@ -1,13 +1,19 @@
-# bookbot
+# Bookbot
 
-Program to analyze contents of a .txt file.
+Bookbot is a Python command-line tool for analyzing the text content of a book file. It provides word count and character frequency statistics.
 
-## How to run
+## Usage
 
-### Linux
+To use Bookbot, run the `main.py` script from the command line, providing the path to your book file as an argument:
 
-`python3 main.py <path_to_book>`
+```bash
+python3 bookbot.py path/to/your/book.txt
+```
 
-## Windows
+or
 
-`python main.py <path_to_book>`
+```bash
+chmod +x bookbot.py
+
+./bookbot.py path/to/your/book.txt
+```
