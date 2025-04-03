@@ -10,7 +10,9 @@ def char_count(text, char_dict):
     for char in char_dict:
         char_count_dict[char] = text.lower().count(char)
     
-    char_count_dict = sorted(char_count_dict.items(), key=lambda item: item[1], reverse=True)
+    char_count_dict = sorted(char_count_dict.items(), 
+                             key=lambda item: item[1], 
+                             reverse=True)
 
     for dict in char_count_dict:
         if dict == char_count_dict[-1]:
